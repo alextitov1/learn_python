@@ -15,7 +15,11 @@
 				"ms-python.python",
 				"GitHub.copilot",
 				"GitHub.copilot-chat",
-				"Gruntfuggly.todo-tree"
+				"Gruntfuggly.todo-tree",
+				"ms-python.pylint",
+				"ms-python.mypy-type-checker",
+				"ms-python.flake8",
+				"ms-python.isort"
 			]
 		}
 	}

@@ -19,16 +19,15 @@
 def define_activity(age):
     if 0 <= age <= 6:
         return "You're a kindergartner"
-    elif 7 <= age <= 17:
+    if 7 <= age <= 17:
         return "You're a schoolboy"
-    elif 18 <= age <= 23:
+    if 18 <= age <= 23:
         return "You're a student"
-    elif 24 <= age <= 65:
+    if 24 <= age <= 65:
         return "You're a worker"
-    elif 66 <= age <= 100:
+    if 66 <= age <= 100:
         return "You're a retiree"
-    else:
-        return "You're probably dead"
+    return "You're probably dead"
 
 
 def main():

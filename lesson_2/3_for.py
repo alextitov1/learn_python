@@ -36,7 +36,8 @@ def main():
         print()
 
     total_salles = sum([sum(phone['items_sold']) for phone in SALLES])
-    ava_salles = total_salles / len(SALLES)
+    number_of_salles = sum([len(phone['items_sold']) for phone in SALLES])
+    ava_salles = total_salles / number_of_salles
 
     print(f"Total salles: {total_salles}")
     print(f"Avarage salle: {ava_salles}")
